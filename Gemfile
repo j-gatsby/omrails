@@ -28,3 +28,4 @@ end
 gem 'jbuilder'
 gem 'uglifier'
 gem 'rails_12factor' 
+gem 'heroku'
