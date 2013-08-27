@@ -7,8 +7,6 @@ gem 'jquery-rails'
 
 group :production do
     gem 'pg'
-    gem 'rails_12factor' 
-    gem 'jbuilder'
 end
 
 group :development, :test do
@@ -23,7 +21,10 @@ end
 
 group :assets do
 	gem 'coffee-rails'
-	gem 'uglifier'
 	gem 'bootstrap-sass'
 	gem 'sass-rails'
 end
+
+gem 'jbuilder'
+gem 'uglifier'
+gem 'rails_12factor' 
